@@ -15,9 +15,13 @@
 * Union: union(p,q) --> set p's root to q's root; Take the first's root as the child of the second item's root.()
 
 ## Quick-union improvement
+### Improvement 1
 * Weighted algorithm: Modify quick-union to avoid tall trees.
   * keep track of size of each tree.
   * Link the root of smaller tree to the root of larger tree.
 * Much better performance than simple quick-union.
 * Garantee that the maxium depth of this tree is lgN.
 * Union and Find operation is at most logN.
+
+### Improvement 2
+* set the root of each node to ultimate root. Just add id[i] = id[id[i]] in the finding-root loop. 
