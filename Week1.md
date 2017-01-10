@@ -20,3 +20,4 @@
   * Link the root of smaller tree to the root of larger tree.
 * Much better performance than simple quick-union.
 * Garantee that the maxium depth of this tree is lgN.
+* Union and Find operation is at most logN.
