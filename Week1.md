@@ -25,3 +25,8 @@
 
 ### Improvement 2
 * set the root of each node to ultimate root. Just add id[i] = id[id[i]] in the finding-root loop. 
+* Keep the tree almost completely flat.
+
+## Conclusion
+* with quick-union with path compression algorithm, we can solve problem with in N + lg*N time.
+* lg*N is almost always very small.(result is the iterative times that lgN becomes one)
