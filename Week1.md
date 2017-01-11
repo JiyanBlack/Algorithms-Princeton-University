@@ -36,3 +36,5 @@
 * A site is enableb at probability p.
 * To check the system is percolate or not, create virtual top/bottom nodes, and check those two nodes.
 * To calculate precise result, simulations are running many times, so the algorithm is very important.
+
+# Algorithm Analysis
