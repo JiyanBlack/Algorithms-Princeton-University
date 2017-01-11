@@ -38,3 +38,6 @@
 * To calculate precise result, simulations are running many times, so the algorithm is very important.
 
 # Algorithm Analysis
+## 3-sum algorithm analysis
+* brute-force algorithm, 3 nested-loops will lead to n^3 trials.
+* log-log plot, plot log(time) - log(N), the slop is the power.
