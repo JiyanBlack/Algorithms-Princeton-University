@@ -41,3 +41,11 @@
 ## 3-sum algorithm analysis
 * brute-force algorithm, 3 nested-loops will lead to n^3 trials.
 * log-log plot, plot log(time) - log(N), the slop is the power.
+
+## Order-of-growth classification
+* 1, lgN, N, NlgN, N^2, N^3, 2^N
+* Theory of algorithms:  Big Oh(worst case performance), big Omega(best case performance), big Theta(equal)
+
+## Goal of Algorithms Analysis
+* Lower the upper bound(big Oh) is easy, develop a better performance algorithm
+* Raise the lower bound(big Omega) is hard, it tries to prove the best we can do, the limitation of this kind problem.
