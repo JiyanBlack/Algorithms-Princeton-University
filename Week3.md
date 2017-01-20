@@ -21,10 +21,17 @@
     * a[i] == v: increment i.
   3. sort two parts that are not equal to v.
 
-
-
-
-
+## System sort
+* Application:
+  1. sort files/music
+  2. find the median
+  3. find duplicates
+  4. data compression
+  5. computer graphics
+  6. load balancing
+  
+* Java use Arrays.sort(): it uses two quicksort for primitives data, two merge sort for objects.
+* Tukey's Ninther, Median of Median: choose three groups of 3 entries, the median of their medians are the new landmark.
 
 
 
