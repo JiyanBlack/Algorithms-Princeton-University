@@ -5,7 +5,7 @@ import javax.sound.sampled.Line;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.ArrayList;
-public class BruteCollinearPoints {
+public final class BruteCollinearPoints {
 
     private final int finalSegmentsNumber;
     private final LineSegment[] finalLss;
@@ -22,6 +22,7 @@ public class BruteCollinearPoints {
     public BruteCollinearPoints(Point[] points) {
         testInput(points);
         Arrays.sort(points);
+        lss = new ArrayList<LineSegment>();
         for(int i = 0; i < points.length - 3; i++)
             for(int j = i + 1; j < points.length - 2; j++)
                 for(int m = j + 1; m < points.length -1 ; m++)
@@ -46,7 +47,8 @@ public class BruteCollinearPoints {
     }
 
     public int numberOfSegments() {
-        return finalSegmentsNumber;
+        int result = finalSegmentsNumber;
+        return result;
     }
 
     public LineSegment[] segments() {
