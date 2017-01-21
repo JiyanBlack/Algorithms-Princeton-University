@@ -7,6 +7,9 @@
 * the parent of node k is k/2
 * the child of element k are 2k, 2k+1
 
-* Implementation:
+* Implementation of max heap:
   1. Swim: if an element is bigger than it's parent, swap it with the parent. Recursively run this process.
   2. Insert(Key x): set pq[++N] = x; swim(N);
+  3.sink: eliminate violation. if parent is smaller than its two children, exchange it with the larger child. Recursively until no violation.
+  4. delMax(): exchange N and 1; N--; set N+1 = null; return max.
+  5. 
