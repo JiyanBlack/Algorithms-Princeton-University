@@ -12,4 +12,6 @@
   2. Insert(Key x): set pq[++N] = x; swim(N);
   3.sink: eliminate violation. if parent is smaller than its two children, exchange it with the larger child. Recursively until no violation.
   4. delMax(): exchange N and 1; N--; set N+1 = null; return max.
-  5. 
+  
+* use resize technique to enable resizing array size for storing the heap.
+
