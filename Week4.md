@@ -15,3 +15,8 @@
   
 * use resize technique to enable resizing array size for storing the heap.
 
+* Other types of the heap data structure:
+  1. binary heap: insert logN, delMax logN, max 1;
+  2. d-ary heap: logd N, delMax d logd N, mx 1
+  3. Fibonacci: 1, logN, 1
+  
