@@ -20,3 +20,7 @@
   2. d-ary heap: logd N, delMax d logd N, mx 1
   3. Fibonacci: 1, logN, 1
   
+* Immutability of keys: assume clients do not change keys. Best practice: use immutable keys.
+  * Immutable datatype(like int, char): put the world final before class name, private class variables.
+* Underflow and overflow. Underflow: throw empty exception. Overflow: resize array.
+
