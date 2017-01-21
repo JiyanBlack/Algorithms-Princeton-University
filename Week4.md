@@ -22,5 +22,6 @@
   
 * Immutability of keys: assume clients do not change keys. Best practice: use immutable keys.
   * Immutable datatype(like int, char): put the world final before class name, private class variables.
+  * Benefits: improve stability, bring confidence to programmers.
 * Underflow and overflow. Underflow: throw empty exception. Overflow: resize array.
 
